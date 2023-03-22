@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind_practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body class="bg-[#fcfbf6]">
+    <h1 class="sr-only">Tailwind</h1>
+    <div class="container lg:p-20 p-8 space-y-8">
+        <div class="lg:flex">
+            <div class="lg:w-1/4">
+                <img src="./images/daram.png" alt="daram" class="rounded-full h-32 w-32 lg:h-48 lg:w-48">
+            </div>
+            <div class="lg:w-3/4 mt-10">
+                <h2 class="text-5xl lg:text-7xl">yuseon<span class="text-[#658CC3]">.Lim</span></h2>
+                <p class="mt-6 text-[#91ADD4] font-bold">Tailwind 연습입니다</p>
+            </div>
+        </div>
+        <!-- // 상단 컨텐츠 -->
+        <div class="lg:flex">
+            <div class="lg:w-1/4 flex-col space-y-8">
+                <h3 class="text-2xl text-[#658CC3] font-bold"><span class="inline-block w-8 h-8 rounded bg-[#658CC3] text-white text-center">1</span> Details</h3>
+                <div class="ml-8">
+                    <p class="text-xl mb-2">Github</p>
+                    <a class="text-[#A7BDDD]" href="https://github.com/dllys" target="_blank">https://github.com/dllys</a>
+                </div>
+                <div class="ml-8">
+                    <p class="text-xl mb-2">Portfolio</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li><a class="block text-[#396BB2]" href="#">자이 리뉴얼</a></li>
+                        <li><a class="block text-[#396BB2]" href="#">신라스테이 리뉴얼</a></li>
+                        <li><a class="block text-[#396BB2]" href="#">문학동네 리뉴얼</a></li>
+                        <li><a class="block text-[#396BB2]" href="#">조말론 리뉴얼</a></li>
+                    </ul>
+                </div>
+                <div class="ml-8">
+                    <p class="text-xl mb-2">Skill</p>
+                    <ul class="list-disc pl-5 space-y-1 mb-3">
+                        <li>2bar-Project 10개 이상</li>
+                        <li>1bar-Project 9개 이하</li>
+                        <li>3bar-즉시 투입 가능</li>
+                    </ul>
+                    <div class="flex gap-2 mt-2">
+                        <p class=" w-1/6 text-[#396BB2]">HTML</p>
+                        <div class="w-1/6 bg-[#A7BDDD] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#A7BDDD] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#A7BDDD] h-2 mt-2 rounded-lg"></div>
+                    </div>
+                    <div class="flex gap-2 mt-2">
+                        <p class="w-1/6 text-[#396BB2]">CSS</p>
+                        <div class="w-1/6 bg-[#A7BDDD] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#A7BDDD] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#A7BDDD] h-2 mt-2 rounded-lg"></div>
+                    </div>  
+                    <div class="flex gap-2 mt-2">
+                        <p class="w-1/6 text-[#396BB2]">jQuery</p>
+                        <div class="w-1/6 bg-[#A7BDDD] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#A7BDDD] h-2 mt-2 rounded-lg"></div>
+                    </div>
+                    <div class="flex gap-2 mt-2">
+                        <p class="w-1/6 text-[#396BB2]">JS</p>
+                        <div class="w-1/6 bg-[#A7BDDD] h-2 mt-2 rounded-lg"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- // 왼쪽 컨텐츠 -->
+            <div class="lg:w-3/4 lg:m-0 mt-6">
+                <div>
+                    <h3 class="text-2xl text-[#658CC3] font-bold"><span class="inline-block w-8 h-8 rounded bg-[#658CC3] text-white text-center">2</span> Profile</h3>
+                    <div class="mt-4 space-y-2 ml-8">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique voluptatum. Temporibus explicabo eius, commodi placeat dolorem aspernatur. Itaque dolorum consequuntur possimus quas nulla asperiores minus, repellat iure officiis? Facilis.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique voluptatum. Temporibus explicabo eius, commodi placeat dolorem aspernatur. Itaque dolorum consequuntur possimus quas nulla asperiores minus, repellat iure officiis? Facilis.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="mt-8 flex-col space-y-8">
+                    <h3 class="text-2xl text-[#658CC3] font-bold"><span class="inline-block w-8 h-8 rounded bg-[#658CC3] text-white text-center">3</span> Project History</h3>
+                    <div class="ml-8 mt-3 fle-col space-y-2">
+                        <h4 class="border-l-4 border-[#A7BDDD] pl-2 text-xl">자이 리뉴얼 <span class="text-sm text-gray-500">2022.01 - 2022.01</span></h4>
+                        <p>Used Skill : <span class="text-[#396BB2]">#HTML #CSS #jQuery</span></p>
+                        <a class="text-[#A7BDDD]" href="#">자이 리뉴얼 사이트</a>
+                        <p class="ml-6">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque omnis, illo molestias rerum praesentium voluptate magni. Repellat temporibus sequi ex perspiciatis. Dolor assumenda maxime est nulla incidunt earum ea.
+                        </p>
+                    </div>
+
+                    <div class="ml-8 mt-3 fle-col space-y-2">
+                        <h4 class="border-l-4 border-[#A7BDDD] pl-2 text-xl">신라스테이 리뉴얼 <span class="text-sm text-gray-500">2022.01 - 2022.01</span></h4>
+                        <p>Used Skill : <span class="text-[#396BB2]">#HTML #CSS #jQuery</span></p>
+                        <a class="text-[#A7BDDD]" href="#">신라스테이 리뉴얼 사이트</a>
+                        <p class="ml-6">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque omnis, illo molestias rerum praesentium voluptate magni. Repellat temporibus sequi ex perspiciatis. Dolor assumenda maxime est nulla incidunt earum ea.
+                        </p>
+                    </div>
+
+                    <div class="ml-8 mt-3 fle-col space-y-2">
+                        <h4 class="border-l-4 border-[#A7BDDD] pl-2 text-xl">문학동네 리뉴얼 <span class="text-sm text-gray-500">2022.01 - 2022.01</span></h4>
+                        <p>Used Skill : <span class="text-[#396BB2]">#HTML #CSS #jQuery</span></p>
+                        <a class="text-[#A7BDDD]" href="#">문학동네 리뉴얼 사이트</a>
+                        <p class="ml-6">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque omnis, illo molestias rerum praesentium voluptate magni. Repellat temporibus sequi ex perspiciatis. Dolor assumenda maxime est nulla incidunt earum ea.
+                        </p>
+                    </div>
+
+                    <div class="ml-8 mt-3 fle-col space-y-2">
+                        <h4 class="border-l-4 border-[#A7BDDD] pl-2 text-xl">조말론 리뉴얼 <span class="text-sm text-gray-500">2022.01 - 2022.01</span></h4>
+                        <p>Used Skill : <span class="text-[#396BB2]">#HTML #CSS #jQuery #JS</span></p>
+                        <a class="text-[#A7BDDD]" href="#">조말론 리뉴얼 사이트</a>
+                        <p class="ml-6">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque omnis, illo molestias rerum praesentium voluptate magni. Repellat temporibus sequi ex perspiciatis. Dolor assumenda maxime est nulla incidunt earum ea.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
